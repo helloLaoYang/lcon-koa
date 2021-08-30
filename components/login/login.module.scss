@@ -1,0 +1,57 @@
+
+
+.tab {
+  display: flex;
+  height: 56px;
+  overflow: hidden;
+  border-bottom: 1px solid #fff8f0;
+}
+
+.tab_item {
+  flex: 1;
+  padding: 18px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  color: #999;
+  line-height: 1;
+  font-weight: bold;
+
+  &:not(:first-child) {
+    border-left: 1px solid #fff8f0;
+  }
+}
+
+.tab_item_active {
+  color: #b764ac;
+}
+
+.qrcode {
+  padding: 35px 20px;
+  min-height: 225px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.qrcode_image {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.qrcode_enter {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 250%;
+  background-position: center;
+  background-image: url("https://s1.hdslb.com/bfs/static/passport/static/img/qr-tip.3a21a48.png") !important;
+}
+
+

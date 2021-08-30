@@ -1,0 +1,113 @@
+
+
+.w_990 {
+  width: 990px;
+}
+
+.full_w {
+  background-color: #fff;
+}
+
+.header {
+  min-height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.logo_con {
+  float: left;
+  overflow: hidden;
+  white-space: nowrap;
+
+
+  span {
+    margin-left: 16px;
+    overflow: hidden;
+    font-size: 24px;
+    color: #333;
+  }
+}
+
+.logo {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 42px;
+  line-height: 60px;
+}
+
+.menu {
+  float: right;
+  padding-top: 42px;
+}
+
+.menu_item {
+  display: inline-block;
+  margin-right: 16px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #999;
+
+  &:hover {
+    color: #b764ac;
+    text-decoration: underline;
+  }
+}
+
+.notice {
+  padding: 10px;
+  overflow: hidden;
+  background-color: #fff8f0;
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+}
+
+.main {
+  position: relative;
+  height: 475px;
+  overflow: hidden;
+ 
+}
+
+.main_bg {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    overflow: hidden;
+    background-image: linear-gradient(90deg, rgba(#000, .3), rgba(#000, .01));
+    opacity: 0.3;
+  }
+}
+
+.main_con {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -495px;
+  z-index: 2;
+  
+}
+
+.login_con {
+  float: right;
+  position: relative;
+  top: 10px;
+  width: 345px;
+  min-height: 345px;
+  overflow: hidden;
+  background-color: #fff;
+}
